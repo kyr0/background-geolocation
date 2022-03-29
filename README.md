@@ -1,4 +1,4 @@
-# Background Geolocation
+# Background Geolocation / kyr0 fork
 A Capacitor plugin which lets you receive geolocation updates even while the app is backgrounded. Only iOS and Android platforms are supported.
 
 ## Usage

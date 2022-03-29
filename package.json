@@ -1,13 +1,13 @@
 {
-  "name": "@capacitor-community/background-geolocation",
-  "version": "1.1.0",
+  "name": "kyr0-background-geolocation",
+  "version": "1.1.3",
   "description": "Receive geolocation updates even while app is backgrounded.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/capacitor-community/background-geolocation"
+    "url": "https://github.com/kyr0/background-geolocation"
   },
   "license": "MIT",
-  "author": "James Diacono",
+  "author": "James Diacono, Aron Homberg",
   "types": "definitions.d.ts",
   "files": [
     "android/build.gradle",
@@ -19,7 +19,7 @@
     "android/src/main/",
     "ios/Podfile*",
     "ios/Plugin/Info.plist",
-    "CapacitorCommunityBackgroundGeolocation.podspec",
+    "Kyr0BackgroundGeolocation.podspec",
     "definitions.d.ts"
   ],
   "devDependencies": {

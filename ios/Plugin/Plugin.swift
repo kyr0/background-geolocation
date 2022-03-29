@@ -48,6 +48,8 @@ class Watcher {
         // result in extraneous invocations of didFailWithError.
         if !isUpdatingLocation {
             locationManager.startUpdatingLocation()
+            // disable the blue bar
+            locationManager.showsBackgroundLocationIndicator = false
             isUpdatingLocation = true
         }
     }
